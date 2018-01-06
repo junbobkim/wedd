@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-gallery,
 #qbootstrap-testimonials,
 #qbootstrap-press {
-  padding: 7em 0;
+  padding: 1em 0;
 }
 @media screen and (max-width: 480px) {
   #qbootstrap-couple,
@@ -320,10 +320,24 @@ h1, h2, h3, h4, h5, h6 {
   height: 800px;
   width: 100%;
 }
+
+@media screen and (min-width:321px) {
   .qbootstrap-hero h2.cvr {
+    font-size: 50px;
   }
   .qbootstrap-hero h2.cvr span.conjunct {
+    font-size: 40px;
   }
+}
+@media (min-width: 769px) {
+  .qbootstrap-hero h2.cvr {
+    font-size: 80px;
+  }
+  .qbootstrap-hero h2.cvr span.conjunct {
+    font-size: 60px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
   .qbootstrap-hero {
@@ -378,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
 .video-hero .display-tc .holder {
   color: #fff;
   font-family: "Source Sans Pro", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 10px;
 }
