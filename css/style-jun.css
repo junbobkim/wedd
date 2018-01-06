@@ -257,7 +257,6 @@ h1, h2, h3, h4, h5, h6 {
   fill: #FF847C;
 }
 .section-heading h2 {
-  font-size: 80px;
   color: #FF847C;
   display: block;
   padding-bottom: 20px;
@@ -265,7 +264,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   .section-heading h2 {
-    font-size: 50px;
   }
 }
 .section-heading h3 {
@@ -275,7 +273,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   .section-heading h3 {
-    font-size: 24px !important;
     line-height: 34px;
   }
 }
@@ -324,10 +321,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
   .qbootstrap-hero h2.cvr {
-    font-size: 160px !important;
   }
   .qbootstrap-hero h2.cvr span.conjunct {
-    font-size: 50%;
   }
 @media screen and (max-width: 768px) {
   .qbootstrap-cover,
@@ -436,7 +431,6 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-cover .display-tc h2,
 .video-hero .display-tc h2 {
   color: #fff;
-  font-size: 80px;
   margin-bottom: 20px;
   font-weight: 300 !important;
 }
@@ -447,7 +441,6 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .qbootstrap-cover .display-tc h2,
   .video-hero .display-tc h2 {
-    font-size: 60px;
   }
 }
 .qbootstrap-cover .display-tc p,
