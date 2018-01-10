@@ -1704,4 +1704,16 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
+.notification_text {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  text-align: center;
+  margin:100px auto;
+  padding: 10px 50px;
+}
+  h3.notification_text {
+    font-family: "al-fresco", cursive;
+    font-size: 2em;
+    display: block;
+}
+
 /*# sourceMappingURL=style.css.map */
